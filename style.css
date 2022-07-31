@@ -101,3 +101,10 @@ figure {
 button {
   margin-top: 50px;
 }
+
+a:hover {
+  border-bottom: 1px solid rgb(72 234 43);
+}
+span {
+  color: rgb(72 234 43);
+}
