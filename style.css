@@ -25,7 +25,7 @@ ul {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-around;
+  justify-content: flex-end;
 }
 
 li {
@@ -36,6 +36,7 @@ li {
 a {
   text-decoration: none;
   color: black;
+  margin-left: 20px;
 }
 /* ------------------------BLACK_SOLID------------- */
 main {
