@@ -51,7 +51,7 @@ a {
 
 a:hover {
   border-bottom: 1px solid rgb(72 234 43);
-  padding-bottom: 5px 5px;
+  padding-bottom: 5px;
 }
 a:active {
   color: rgba(72, 234, 43, 0.836);
