@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,500;8..144,600;8..144,700;8..144,800;8..144,900;8..144,1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,500;8..144,600;8..144,700;8..144,800;8..144,900;8..144,1000&family=Stick+No+Bills:wght@200;400;500;600;700;800&display=swap");
 *,
 *::before,
 *::after {
@@ -5,19 +7,24 @@
 }
 
 body {
+  /* background-color: rgb(133, 131, 131); */
   padding: 0px 50px;
   height: 100vh;
   /*  padding: 0; */
   margin: 0;
+  font-family: "Roboto Flex", sans-serif;
 }
 
 header {
-  background-color: blanchedalmond;
+  /* background-color: blanchedalmond; */
 
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+}
+.logo {
+  font-family: "Stick No Bills", sans-serif;
 }
 ul {
   border: 5px solid black;
@@ -40,7 +47,7 @@ a {
 }
 /* ------------------------BLACK_SOLID------------- */
 main {
-  background-color: rgb(254, 254, 254);
+  /* background-color: rgb(254, 254, 254); */
   border: 5px solid black;
   display: flex;
   justify-content: space-around;
@@ -48,7 +55,7 @@ main {
 }
 
 section {
-  background-color: rgb(250, 250, 253);
+  /*  background-color: rgb(250, 250, 253); */
   border: 5px dotted black;
   width: 300px;
   display: flex;
@@ -56,13 +63,20 @@ section {
   align-items: center;
   justify-content: center;
 }
+h1 {
+  font-weight: 300;
+}
 
 img {
-  height: 300px;
+  height: 600px;
   margin: 0 0;
+
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
 }
 
 figure {
+  height: 600px;
   padding: 0 0;
   margin: 0 0;
 }
