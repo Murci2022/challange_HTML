@@ -46,7 +46,9 @@ a {
   text-decoration: none;
   color: rgb(255, 255, 255);
   margin-left: 20px;
+  mar
 }
+
 a:hover {
   border-bottom: 1px solid rgb(72 234 43);
 }
@@ -102,7 +104,17 @@ figure {
 }
 
 button {
+  font-weight: 600;
+  background-color: white;
+  color: rgb(4, 4, 4);
+  border: 1px solid white;
+  padding: 7px 10px;
   margin-top: 50px;
+}
+button:hover{
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
 }
 
 span {
