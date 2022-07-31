@@ -66,6 +66,9 @@ section {
 h1 {
   font-weight: 300;
 }
+p {
+  text-align: center;
+}
 
 img {
   height: 400px;
