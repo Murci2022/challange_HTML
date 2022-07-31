@@ -77,10 +77,16 @@ section {
 
 h1 {
   font-weight: 300;
-  /* letter-spacing: 0.2em; */
+  letter-spacing: 0.2em;
+}
+span {
+  color: rgb(72, 234, 43);
+  font-weight: 300;
+  letter-spacing: 0.2em;
 }
 p {
   text-align: center;
+  letter-spacing: 0.1em;
 }
 
 img {
@@ -125,8 +131,4 @@ button:active {
   background-color: rgba(72, 234, 43, 0.836);
   color: white;
   border: 1px solid white;
-}
-
-span {
-  color: rgb(72, 234, 43);
 }
