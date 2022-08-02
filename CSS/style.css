@@ -21,8 +21,13 @@ body {
 .headder_nav {
   position: fixed;
   width: 100vw;
+  padding: 5px 20px 0 20px;
   background-color: black;
   z-index: 10;
+}
+
+main {
+  padding-top: 60px;
 }
 
 @media (max-width: 800px) {
@@ -34,6 +39,7 @@ body {
     width: 100vw;
     background-color: rgb(252, 118, 118);
     z-index: 10;
+    padding: 0px 10px;
   }
 
   .logo {
@@ -50,7 +56,7 @@ body {
     flex-direction: column;
   }
   .alter_menu {
-    padding: 20px;
+    padding: 0px;
     border: 3px dotted black;
     display: flex;
     align-items: flex-end;
