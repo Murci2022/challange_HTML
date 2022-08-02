@@ -154,16 +154,17 @@ img {
   filter: grayscale(100%); */
 }
 
-figure {
-  /*  margin-top: 200px; */
-
-  padding: 20 20;
-  margin: 0 0;
-}
-
 .img_holder {
   display: flex;
   flex-direction: column;
+}
+.img_figure {
+  margin: 0;
+  padding: 0;
+  background-color: yellow;
+}
+.bg_img {
+  width: 100%;
 }
 
 button {
