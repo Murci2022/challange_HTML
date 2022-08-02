@@ -23,6 +23,10 @@ body {
     background-color: rgb(180, 32, 32);
     display: grid 3 4;
   }
+  .logo {
+    font-family: "Stick No Bills", sans-serif;
+    font-size: 18px;
+  }
   nav {
     display: none;
   }
@@ -32,8 +36,21 @@ body {
     display: flex;
     flex-direction: column;
   }
+  .alter_menu {
+    padding: 20px;
+    border: 3px dotted black;
+    display: flex;
+    align-items: flex-end;
+  }
+
   .bar {
-    border-bottom: 1px solid white;
+    width: 30px;
+    height: 2px;
+    color: rgb(11, 11, 11);
+    border: 1px solid rgb(24, 23, 23);
+  }
+  main {
+    flex-wrap: wrap;
   }
 }
 @media (min-width: 801px) {
@@ -54,7 +71,7 @@ header {
 }
 ul {
   border: 5px solid black;
-  width: 600px;
+  max-width: 600px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -81,10 +98,15 @@ a:hover {
 a:active {
   color: rgba(72, 234, 43, 0.836);
 }
+
+.alter_menu {
+  display: flex;
+  flex-direction: column;
+}
 .hamburger_menu {
   color: rgb(254, 251, 251);
 }
-/* ------------------------BLACK_SOLID------------- */
+/* ------------------------MAIN------------- */
 main {
   /* background-color: rgb(254, 254, 254); */
   border: 5px solid black;
@@ -155,4 +177,9 @@ button:active {
   background-color: rgba(72, 234, 43, 0.836);
   color: white;
   border: 1px solid white;
+}
+
+/* -------Contact------ */
+.contact {
+  background-color: gray;
 }
