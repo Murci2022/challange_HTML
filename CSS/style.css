@@ -108,7 +108,7 @@ ul {
   letter-spacing: 0.2em;
 }
 
-li {
+.bar {
   list-style: none;
   /* text-decoration: none; */
   margin-bottom: 10px;
