@@ -84,7 +84,6 @@ main {
 
 @media (min-width: 1100px) {
   body {
-    width: 1101px;
   }
 }
 header {
@@ -108,7 +107,7 @@ ul {
   letter-spacing: 0.2em;
 }
 
-li {
+.bar {
   list-style: none;
   /* text-decoration: none; */
   margin-bottom: 10px;
@@ -260,4 +259,28 @@ input {
 
 .contact {
   background-color: gray;
+}
+/* --------Grid Section---- */
+.galerie {
+  padding: 1rem;
+  width: 100vw;
+  background-color: gainsboro;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+@media (max-width: 600px) {
+  .galerie {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+}
+.box {
+  justify-self: center;
+  border: 1px solid black;
+}
+img {
+  width: 20vw;
+  border: 1px solid black;
 }
