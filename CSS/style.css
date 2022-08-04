@@ -266,13 +266,13 @@ input {
   width: 100vw;
   background-color: gainsboro;
   display: grid;
-  grid-template-columns: repeat(1, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 30px;
 }
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .galerie {
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 30px;
   }
 }
@@ -281,6 +281,6 @@ input {
   border: 1px solid black;
 }
 img {
-  width: 40em;
+  width: 20vw;
   border: 1px solid black;
 }
